@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* ! ************************************** */
+/* !PADING */
+/* ! ************************************** */
+.p_20px {
+    padding: 20px;
+}
+.p1vw {
+    padding: 1vw;
+}
+.p_lr1_2vw{
+    padding: 0 1.2vw;
+}
+/* ! ************************************** */
+/* !WIDTH */
+/* ! ************************************** */
+.w100 {
+    width: 100%;
+}
+.w20 {
+    width: 20%;
+}
+.w80 {
+    width: 80%;
+}
+.w90 {
+    width: 90%;
+}
+.w70 {
+    width: 70%;
+}
+.w50 {
+    width: 50%;
+}
+.w30 {
+    width: 30%;
+}
+.w10 {
+    width: 10%;
+}
+.w30px {
+    width: 50px;
+}
+.w4_5vw {
+    width: 4.5vw;
+}
+/* ! ************************************** */
+/* !HEIGHT */
+/* ! ************************************** */
+.h100vh {
+    height: 100vh;
+}
+.h100 {
+    height: 100%;
+}
+.h90vh{
+    height: 90vh;
+}
+.h70vh {
+    height: 70vh;
+}
+.h65vh {
+    height: 65vh;
+}
+.h10vh {
+    height: 10vh;
+}
+.h10 {
+    height: 10%;
+}
+.h30px {
+    height: 50px;
+}
+/* ! ************************************** */
+/* !BACKGROUNG COLOR */
+/* ! ************************************** */
+.bgc_white {
+    background-color: white;
+}
+.bgc_lightgreen {
+    background-color: #009688;
+}
+.bgc_lightgrey {
+    background-color: #eaeaea;
+}
+.bgc_lightblue {
+    background-color: #8edafc;
+}
+.bgc_pisello {
+    background-color: #d5f9ba;
+}
+/* ! ************************************** */
+/* !MARGIN */
+/* ! ************************************** */
+/* .m_0auto {
+    margin: 0 auto;
+} */
+.m_lr_20px {
+    margin: 0 20px;
+}
+.m_t2vw {
+    margin-top: 2vh;
+}
+.m_l2vw{
+    margin-left: 2vw;
+}
+.m_r2vw {
+    margin-right: 2vw;
+}
+
+/* ! ************************************** */
+/* !POSITION */
+/* ! ************************************** */
+.p_rel {
+    position: relative;
+}
+.p_rel_t50 {
+    top: 50%;
+}
+.p_rel_l50 {
+    left: 50%;
+}
+.p_rel_trans_trans50only {
+    transform: translate(-50%);
+}
+/* ! ************************************** */
+/* !FLEX */
+/* ! ************************************** */
+.d_flex {
+    display: flex;
+}
+.fd_c {
+    flex-direction: column;
+}
+.jc_sb {
+    justify-content: space-between;
+}
+.ai_c {
+    align-items: center;
+}
+.jc_fs {
+    justify-content: flex-start;
+}
+.jc_fe {
+    justify-content: flex-end;
+}
+/* ! ************************************** */
+/* !LIST STYLE AND MORE ABOUT LIST */
+/* ! ************************************** */
+.list_st_none {
+    list-style-type: none;
+}
+/* ! ************************************** */
+/* !BORDERS */
+/* ! ************************************** */
+.br_50 {
+    border-radius: 50%;
+}
+.br_10px {
+    border-radius: 10px;
+}
+.bord_r_05px_gray {
+    border-right: 0.5px solid gray;
+}
+.bord_none {
+    border: none;
+}
+.bord_tb_05px_gray {
+    border-top: 0.5px solid gray;
+    border-bottom: 0.5 solid gray;
+}
+/* ! ************************************** */
+/* !LINE HEIGHT */
+/* ! ************************************** */
+.lh_50px {
+    line-height: 50px;
+}
+/* ! ************************************** */
+/* !TXT ALIGN */
+/* ! ************************************** */
+.ta_c {
+    text-align: center;
+}
+/* ! ************************************** */
+/* !FONT SIZE */
+/* ! ************************************** */
+.fs_1_5vw {
+    font-size: 1.5vw;
+}
+.fs_1vw{
+    font-size: 1vw;
+}
+
+
+
+input[type="search"]:focus,
+input[type="text"]:focus {
+    outline: none;
+}
+
+.over_scroll_y {
+    overflow: scroll;
+}
+
+
+.obj_fit_cover {
+    object-fit: cover;
+}
+form {
+    height: 5vh;
+    
+}
+form i {
+    padding: 20px;
+}
+
+.lista1 {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.lista1 li {
+    padding: 0 1.2vw;
+}
+.chat {
+    width: 100%;
+    padding: 10px 0;
+}
+.scritta {
+    width: 80%;
+    padding-right: 2vw;
+}
+.img {
+    width: 20%;
+    object-fit: cover;
+}
+.Michele {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+/* --------------------------- */
+
+
+
+.font {
+    font-size: 1vw;
+}
+
+
+/* --------------------------- */
+
+.secondo_blocco {
+    background-image: url(../assets/img/mine.jpg);
+}
+
+
+
+
+a{
+    color: #b2b3b4;
+}
