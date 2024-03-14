@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+    .blocco_sinista {
+        width: 15%;
+    }
+    .blocco_sinista img {
+        width: 5vw;
+        
+        margin: 1vh auto;
+        
+    }
+    header .lista1 {
+        display: none;
+    }
+    .barra_notifiche {
+        display: none;
+    }
+    .form_ricerca {
+        display: none;
+    }
+    .chats_container {
+        height: 80vh;
+    }
+    .chat div {
+        display: none;
+    }
+    .secondo_blocco {
+        width: 85%;
+    }
+   
+}

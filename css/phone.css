@@ -1,0 +1,57 @@
+@media screen and (max-width:425px) {
+    .blocco_sinista {
+        display: none;
+    }
+    .secondo_blocco ul{
+        display: none;
+    }
+    .contenitoe_immagine2 img {
+        width: 10vw;
+    }
+    .contenitoe_immagine2 {
+        width: 100%;
+    }
+    .info_profilo h3{
+        font-size: 4vw;
+    }
+    .info_profilo span {
+        font-size: 3vw;
+    }
+    .secondo_blocco {
+        width: 100%;
+    }
+    .messaggi_ricevuti {
+        width: 70%;
+        font-size: 3vw;
+    }
+    .messaggi_ricevuti .chevron{
+        font-size: 3vw;
+    }
+    .messaggi_ricevuti .chevron span{
+        font-size: 2vw;
+    }
+    .messaggi_inviati {
+        width: 70%;
+        font-size: 3vw;
+    }
+    .messaggi_inviati .chevron{
+        font-size: 3vw;
+    }
+    .messaggi_inviati .chevron span{
+        font-size: 2vw;
+    }
+        
+    .icona_footer {
+        display: none;
+    }
+   .scrivi_messaggio_container {
+    width: 90%;
+    margin: 0 auto;
+   }
+   .scrivi_messaggio {
+    padding: 20px;
+    font-size: 3vw;
+   }
+
+    
+}

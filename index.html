@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Boolzapp</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/phone.css">
 </head>
 <body>
     <!-- background webapp -->
@@ -18,7 +20,7 @@
 
                 <!-- !-------------------------------------------------------------------- -->
                 <!-- primo macro-blocco -->
-                <div class="col w30 h100">
+                <div class="blocco_sinista col w30 h100">
 
                     <!-- header: profilo utente - e links -->
                     <header class="w100 h10vh bgc_lightgrey d_flex ai_c bord_r_05px_gray fs_1_5vw">
@@ -50,7 +52,7 @@
                     <main>
 
                         <!-- barra notifiche -->
-                        <div class="w100 bgc_lightblue h10vh d_flex ai_c">
+                        <div class="barra_notifiche w100 bgc_lightblue h10vh d_flex ai_c">
 
                             <div class="w20">
 
@@ -69,7 +71,7 @@
                         </div>
 
                         <!-- barra di ricerca chats -->
-                        <form class="d_flex ai_c fs_1_5vw" action="search_bar">
+                        <form class="form_ricerca d_flex ai_c fs_1_5vw" action="search_bar">
 
                             <i class="fa-solid fa-magnifying-glass w20 m_lr_20px"></i>
 
@@ -79,7 +81,7 @@
                         </form>
 
                         <!-- chats -->
-                        <div class="over_scroll_y h65vh">
+                        <div class=" chats_container over_scroll_y h65vh">
 
                             <div class="chat d_flex ai_c bgc_white bord_tb_05px_gray">
 
@@ -248,7 +250,7 @@
 
                             <img class="w4_5vw m_lr_20px br_50" src="./assets/img/avatar_io.jpg" alt="">
 
-                            <div>
+                            <div class="info_profilo">
 
                                 <h3 class="fs_1_5vw">Michele</h3>
                                 <span class="fs_1vw">Ultimo accesso oggi alle 16.59</span>
@@ -364,14 +366,14 @@
 
                     <footer class= " w100 h10vh bgc_lightgrey d_flex jc_sb ai_c fs_1_5vw" >
 
-                        <div class="w10 ta_c">
+                        <div class="icona_footer w10 ta_c">
                             <i class="fa-regular fa-face-smile"></i>
                         </div>
-                        <div class="w80">
+                        <div class="w80 scrivi_messaggio_container">
                             <label for="type-text"></label>
-                            <input class="p1vw w100 bord_none fs_1_5vw" id="type-text" type="text" placeholder="Scrivi un messaggio">
+                            <input class="scrivi_messaggio p1vw w100 bord_none fs_1_5vw" id="type-text" type="text" placeholder="Scrivi un messaggio">
                         </div>
-                        <div class="w10 ta_c">
+                        <div class="icona_footer w10 ta_c">
                             <i class="fa-solid fa-microphone fs_1_5vw"></i>
                         </div>
 
